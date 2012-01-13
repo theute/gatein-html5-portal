@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instanc e" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.gatein.extension.html5</groupId>
+  <artifactId>gatein-extension-html5</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>Basic Extension - Root</name>
+  <url>http://www.gatein.org</url>
+  <modules>
+    <module>gatein-extension-html5-configuration</module>
+    <module>gatein-extension-html5-war</module>
+    <module>gatein-extension-html5-ear</module>
+  </modules>
+</project>
