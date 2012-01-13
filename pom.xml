@@ -13,5 +13,6 @@
     <module>gatein-extension-html5-configuration</module>
     <module>gatein-extension-html5-war</module>
     <module>gatein-extension-html5-ear</module>
+    <module>gatein-extension-html5-portlets</module>
   </modules>
 </project>
