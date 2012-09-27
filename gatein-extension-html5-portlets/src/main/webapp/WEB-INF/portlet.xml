@@ -6,43 +6,15 @@
 	version="2.0">
 
 	<portlet>
-		<portlet-name>HeaderPortlet</portlet-name>
-		<display-name>HTML5 Header Portlet</display-name>
-		<portlet-class>org.gatein.html5.HeaderPortlet</portlet-class>
+		<portlet-name>CanvasPortlet</portlet-name>
+		<display-name>HTML5 Cavas Portlet</display-name>
+		<portlet-class>org.gatein.html5.CanvasPortlet</portlet-class>
 		<supports>
 			<mime-type>text/html</mime-type>
 			<portlet-mode>VIEW</portlet-mode>
 		</supports>
 		<portlet-info>
-			<title>HeaderPortlet</title>
-		</portlet-info>
-	</portlet>
-	<portlet>
-		<portlet-name>FeaturedArticlePortlet</portlet-name>
-		<display-name>HTML5 Featured Article Portlet</display-name>
-		<portlet-class>
-			org.gatein.html5.FeaturedArticlePortlet
-		</portlet-class>
-		<supports>
-			<mime-type>text/html</mime-type>
-			<portlet-mode>VIEW</portlet-mode>
-		</supports>
-		<portlet-info>
-			<title>FeaturedArticlePortlet</title>
-		</portlet-info>
-	</portlet>
-	<portlet>
-		<portlet-name>ArticlesListPortlet</portlet-name>
-		<display-name>HTML5 ArticlesList Portlet</display-name>
-		<portlet-class>
-			org.gatein.html5.ArticlesListPortlet
-		</portlet-class>
-		<supports>
-			<mime-type>text/html</mime-type>
-			<portlet-mode>VIEW</portlet-mode>
-		</supports>
-		<portlet-info>
-			<title>ArticlesListPortlet</title>
+			<title>CanvasPortlet</title>
 		</portlet-info>
 	</portlet>
 </portlet-app>
