@@ -45,7 +45,6 @@
 		<% } } %>
 		
 		<link rel="shortcut icon" type="image/x-icon" href="<%=docBase%>/favicon.ico" />
-		<link rel="stylesheet" href="css/main.css" type="text/css" />
 		<%for(skinConfig in portalSkins) {
 		def url = skinConfig.createURL(rcontext.controllerContext);
 		url.setOrientation(orientation);
