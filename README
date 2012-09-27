@@ -1,0 +1,19 @@
+Examples of a portal extension enabling HTML5 and a simple portlet demoing an HTML5 Canvas.
+
+Credits for the Canvas go to William Malone: http://www.williammalone.com/articles/html5-canvas-example/
+
+To install:
+1) Build: mvn clean install
+2) Deploy the portal extension: gatein-extension-html5-ear/target/gatein-extension-html5-ear-1.0-SNAPSHOT.ear
+3) Deploy the HTML5 portlet: gatein-extension-html5-portlets/target/html5portlets.war
+
+The page will be HTML5 valid according to: http://validator.w3.org/
+
+Explanation:
+The portal extension changes the DOCTYPE and the <head> tag to be conform to HTML5.
+It is done by rewriting UIPortalApplication.gtmpl gatein-extension-html5-war/src/main/webapp/groovy/portal/webui/workspace/UIPortalApplication.gtmpl (that's the ugly part).
+
+The portlet is a very simple portlet that adds Javascript to the header of the page using the Portlet 2.0 standard.
+
+
+
